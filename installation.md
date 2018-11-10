@@ -1,6 +1,6 @@
-# Install PostgreSQL on Ubuntu 16.04
+# Install PostgreSQL
 
-## Commands
+## Ubuntu 16.04
 
 Ubuntu's default repositories contain Postgres packages, so we can install these easily using the `apt` packaging system.
 
@@ -11,6 +11,6 @@ $ sudo apt-get update
 $ sudo apt-get install postgresql postgresql-contrib
 ```
 
-## References
+### References
 
 - [How To Install and Use PostgreSQL on Ubuntu 16.04](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-16-04)
