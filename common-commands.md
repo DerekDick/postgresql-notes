@@ -51,3 +51,9 @@ RENAME column_name_1 TO new_column_name_1,
 RENAME column_name_2 TO new_column_name_2,
 ...;
 ```
+
+# Rename a Database
+
+```shell
+ALTER DATABASE "old_name" RENAME TO "new_name";
+```
