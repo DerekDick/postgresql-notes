@@ -39,7 +39,7 @@ sammy=# \conninfo
 ## Single Column
 
 ```shell
-ALTER TABLE table_name 
+ALTER TABLE table_name
 RENAME COLUMN column_name TO new_column_name;
 ```
 
@@ -56,4 +56,14 @@ RENAME column_name_2 TO new_column_name_2,
 
 ```shell
 ALTER DATABASE "old_name" RENAME TO "new_name";
+```
+
+# Add New Columns to a table
+
+```shell
+ALTER TABLE table_name
+ADD COLUMN new_column_name_1 data_type constraint,
+ADD COLUMN new_column_name_2 data_type constraint,
+...
+ADD COLUMN new_column_name_n data_type constraint;
 ```
