@@ -67,3 +67,15 @@ ADD COLUMN new_column_name_2 data_type constraint,
 ...
 ADD COLUMN new_column_name_n data_type constraint;
 ```
+
+# List tables
+
+```shell
+\dt
+```
+
+or
+
+```shell
+SELECT * FROM pg_catalog.pg_tables;
+```
