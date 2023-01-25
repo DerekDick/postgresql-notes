@@ -25,4 +25,5 @@ Using Homebrew
 
 ```shell
 $ brew install postgresql
+$ brew services start postgresql@10
 ```
